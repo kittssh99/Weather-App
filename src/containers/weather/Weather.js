@@ -7,7 +7,7 @@ import Geolocation from 'react-native-geolocation-service';
 import { PERMISSIONS, request, RESULTS, check } from "react-native-permissions";
 import Geocoder from 'react-native-geocoding'
 import LottieView from 'lottie-react-native';
-Geocoder.init("AIzaSyDPqCdv4liymFR50l3dvyfxOFSezgtPViI")
+Geocoder.init("****Google map key*****")
 
 class Weather extends Component {
     constructor(props) {
